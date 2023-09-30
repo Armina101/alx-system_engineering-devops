@@ -1,0 +1,14 @@
+#!/usr/bin/env bash
+# This script will display numbers 1 to 20 at 4, 9, & 17 they display different bad lucks
+
+a=0
+while [ $a -le 20 ];
+	do
+		echo "$a"
+		case $a in 
+		"4") echo "bad luck from China";;
+		"9") echo "bad luck from Japan";;
+		"17") echo "bad luck from Italy";;
+		esac
+		(( a++ ))
+		done
