@@ -1,5 +1,5 @@
-i#!/usr/bin/env bash
-# This script displays FizzBuzz if multiple of 3 and 5 fizz for 3, buzz 5
+#!/usr/bin/env bash
+# Displays FizzBuzz if multiple of 3 and 5 fizz for 3, buzz 5
 for ((n=1;n<=100;n++))
 do
     if ((n % 15 == 0))
