@@ -1,4 +1,6 @@
-!postmortem meme(https://github.com/Armina101/alx-system_engineering-devops/blob/master/postmortem-meme.jpg?raw=true)
+<img src="https://github.com/Armina101/Armina101/blob/Postmortem-meme.jpg" alt="Postmortem">
+
+**Postmortem Report**
 
 Issue Summary:
 
