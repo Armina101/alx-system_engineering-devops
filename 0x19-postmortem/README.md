@@ -5,7 +5,7 @@
 Issue Summary:
 
 Duration:
-Our little adventure unfolded on March 15, 2024, from 10:00 to 12:30 UTC. If it were a movie, we'd call it "The Database Connection Leak Strikes Back."
+Our little adventure unfolded on January 15, 2024, from 10:00 to 12:30 WAT. If it were a movie, we'd call it "The Database Connection Leak Strikes Back."
 
 Impact:
 Imagine trying to upload cat pictures and getting stuck in a black hole. That's what happened to 15% of our users during this cosmic disturbance. They were left in the dark, wondering if their furry friends had broken the internet.
@@ -16,7 +16,7 @@ Our Sherlock Holmes investigation revealed a sneaky database connection leak par
 Timeline:
 
 - Detection Time:
-  - At 10:00 UTC, our monitoring alarm went off like an angry rooster on a Monday morning, alerting us to a spike in database connection errors. Rise and shine!
+  - At 10:00 WAT, our monitoring alarm went off like an angry rooster on a Monday morning, alerting us to a spike in database connection errors. Rise and shine!
 
 - Issue Identification:
   - We dived into the image processing service logs, and it was like reading a mystery novel. The plot twist? An unexpected flood of database connections stealing the spotlight.
@@ -25,10 +25,10 @@ Timeline:
   - Cue the suspenseful music. We investigated the usual suspects—database servers—but found nothing. It was like searching for a needle in a haystack, in the dark, with sunglasses on.
 
 - Escalation:
-  - 03:45 UTC: Desperate times call for desperate measures. We called in the reinforcements—the database and application teams joined the party to figure out who invited the connection leak.
+  - 03:45 WAT: Desperate times call for desperate measures. We called in the reinforcements—the database and application teams joined the party to figure out who invited the connection leak.
 
 - Resolution:
-  - By 04:45 UTC, we closed the leaked connections, fixed the image processing service's bad behavior, and rebooted it. Crisis averted; cat pictures resumed their rightful place in the digital realm.
+  - By 04:45 WAT, we closed the leaked connections, fixed the image processing service's bad behavior, and rebooted it. Crisis averted; cat pictures resumed their rightful place in the digital realm.
 
 Root Cause and Resolution:
 
